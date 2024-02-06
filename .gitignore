@@ -1,0 +1,5 @@
+# Project exclude paths
+/integration/target/
+/project/target/
+/target/
+/word-counter-api/target/
