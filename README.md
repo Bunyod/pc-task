@@ -59,9 +59,3 @@ It contains the HTTP endpoints that we surface via **http4s**.  You will also ty
 
 **The util package**
 The util package could be considered infrastructure, as it has nothing to do with the domain.
-
-**NOTE**
-All business logic is located in `domain` package, every package inside is related to some domain.
-
-Service classes contains high level logic that relate to data manipulation,
-that means that services MUST NOT implement storage.
